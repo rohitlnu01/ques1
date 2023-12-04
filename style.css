@@ -1,0 +1,59 @@
+/* Define styles for resizable and draggable elements */
+.draggable, .ui-selectable {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+  margin: 10px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+}
+
+/* Define styles for droppable area */
+.droppable {
+  width: 300px;
+  height: 200px;
+  padding: 0.5em;
+  margin: 10px;
+  border: 2px dashed #ccc;
+  background-color: #e0e0e0;
+}
+
+/* Define styles for resizable element */
+.resizable-element {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  overflow: hidden; /* To prevent content from overflowing when resized */
+}
+
+/* Define styles for accordion */
+.accordion-container {
+  width: 300px;
+}
+
+/* Define styles for autocomplete input */
+#autocomplete {
+  margin: 10px;
+}
+
+/* Define styles for datepicker input */
+#datepicker {
+  margin: 10px;
+}
+
+/* Define styles for slider */
+#slider {
+  width: 200px;
+  margin: 10px;
+}
+
+/* Define styles for elements with effects */
+.effect-element {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+}
